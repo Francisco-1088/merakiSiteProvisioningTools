@@ -1,0 +1,162 @@
+﻿"﻿""Switch / Port""",Name,Type,VLAN,Received bytes,Sent bytes,Tags,Allowed VLANs,CDP/LLDP,Module,Link,Port#,RSTP,POE,Port profile,Port profile name,Stack,Enabled,Access policy,Adaptive Policy Group,UDLD,Aggregation Group
+Bond_C9300_24_M / 1 details,Looped_Link,trunk,native 1,549.6 KB,748.8 KB, loop switch ,1-1000,null,null,Auto negotiate,1,Enabled - BPDU guard,-,Disabled,-,-,enabled,-,-,Enforce,null
+Bond_C9300_24_M / 2 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 3 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 4 details,null,access,1,-,-,null,-,null,null,Auto negotiate,4,Disabled,-,Disabled,-,-,enabled,Open,-,Alert only,null
+Bond_C9300_24_M / 5 details,null,trunk,native 10,-,-,null,1-1000,null,null,Auto negotiate,5,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 6 details,null,access,"6, voice 8",-,-,null,-,null,null,Auto negotiate,6,Enabled,-,Disabled,-,-,enabled,Open,-,Alert only,null
+Bond_C9300_24_M / 7 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,7,Enabled - Loop guard,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 8 details,null,trunk,native 1,-,-,fun,1-1000,null,null,Auto negotiate,8,Enabled - Root guard,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 9 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,9,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 10 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,10,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 11 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,11,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 12 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,12,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 13 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,13,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 14 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,14,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 15 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,15,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 16 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,16,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 17 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,17,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 18 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,18,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 19 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,19,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 20 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,20,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 21 details,Downlink_to_C9300_24P,trunk,native 1,56.0 MB,160.6 MB, switch ,1-1000,Bond_C9300_24P_M,null,Auto negotiate (1 Gbps),21,Forwarding,-,Disabled,-,-,enabled,-,-,Enforce,null
+Bond_C9300_24_M / 22 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,22,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 23 - uplink details,Uplink_to_MX,trunk,native 1,12.68 GB,16.66 GB, router ,1-1000,Meraki MX75 - Bond_MX75,null,1 Gigabit full duplex (forced),23,Forwarding,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 24 details,Downlink_to_MS130,trunk,native 1,16.57 GB,14.13 GB, switch ,1-1000,Meraki MS130-12X - Bond_MS130X,null,Auto negotiate (1 Gbps),24,Forwarding,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / Dedicated stack port 1 details,null,-,-,-,-,null,-,null,null,-,Dedicated stack port 1,-,-,Disabled,-,-,enabled,-,-,-,null
+Bond_C9300_24_M / Dedicated stack port 2 details,null,-,-,-,-,null,-,null,null,-,Dedicated stack port 2,-,-,Disabled,-,-,enabled,-,-,-,null
+Bond_C9300_24_M / AGGR/0 details,null,trunk,native 1,-,-,null,1-1000,null,2x40G,Auto negotiate,"1, 2",Enabled,-,Disabled,-,-,enabled,-,-,Alert only,0
+Bond_C9300_24_M / 4x10G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,4x10G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 4x10G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,4x10G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 4x10G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,4x10G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 4x10G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,4x10G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 8x10G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Enforce,null
+Bond_C9300_24_M / 8x10G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Enforce,null
+Bond_C9300_24_M / 8x10G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Enforce,null
+Bond_C9300_24_M / 8x10G / 4 details,null,trunk,native 1,-,-,fun,1-1000,null,8x10G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Enforce,null
+Bond_C9300_24_M / 8x10G / 5 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,5,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 8x10G / 6 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,6,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 8x10G / 7 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,7,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / 8x10G / 8 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,8,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-2-40G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-2-40G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-2-40G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-2-40G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-4-10G / 1 details,null,trunk,native 1,-,-,fun,1-1000,null,C3850-NM-4-10G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-4-10G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-4-10G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-4-10G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-4-10G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-4-10G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-4-10G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-8-10G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-8-10G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-8-10G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-8-10G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-8-10G / 5 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,5,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-8-10G / 6 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,6,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-8-10G / 7 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,7,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C3850-NM-8-10G / 8 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,8,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-2Q / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-2Q,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-2Q / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-2Q,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-2Y / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-2Y,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-2Y / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-2Y,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-4G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-4G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-4G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-4G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-4M / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4M,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-4M / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4M,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-4M / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4M,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-4M / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4M,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-8X / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-8X / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-8X / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-8X / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-8X / 5 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,5,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-8X / 6 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,6,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-8X / 7 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,7,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24_M / C9300-NM-8X / 8 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,8,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 1 details,Looped_Link,trunk,native 1,537.7 KB,750.4 KB, loop switch ,1-1000,null,null,Auto negotiate,1,Enabled - BPDU guard,enabled,Disabled,-,-,enabled,-,-,Enforce,null
+Bond_C9300_24P_M / 2 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,2,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 3 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,3,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 4 details,null,trunk,native 1,-,-,fun,1-1000,null,null,Auto negotiate,4,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 5 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,5,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 6 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,6,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 7 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,7,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,8,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 9 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,9,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 10 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,10,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 11 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,11,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 12 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,12,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 13 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,13,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 14 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,14,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 15 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,15,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 16 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,16,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 17 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,17,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 18 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,18,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 19 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,19,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 20 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,20,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 21 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,21,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 22 details,null,trunk,native 1,-,-,null,1-1000,null,null,Auto negotiate,22,Enabled,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 23 - uplink details,Uplink_to_C9300M,trunk,native 1,161.2 MB,56.2 MB, switch ,1-1000,Bond_C9300_24_M,null,Auto negotiate (1 Gbps),23,Forwarding,enabled,Disabled,-,-,enabled,-,-,Enforce,null
+Bond_C9300_24P_M / 24 details,AP,trunk,native 1,8.5 MB,160.2 MB, ap ,1-1000,APC414.A201.6050,null,Auto negotiate (1 Gbps),24,Forwarding,enabled,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / Dedicated stack port 1 details,null,-,-,-,-,null,-,null,null,-,Dedicated stack port 1,-,-,Disabled,-,-,enabled,-,-,-,null
+Bond_C9300_24P_M / Dedicated stack port 2 details,null,-,-,-,-,null,-,null,null,-,Dedicated stack port 2,-,-,Disabled,-,-,enabled,-,-,-,null
+Bond_C9300_24P_M / 2x40G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,2x40G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 2x40G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,2x40G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 4x10G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,4x10G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 4x10G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,4x10G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 4x10G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,4x10G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 4x10G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,4x10G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8x10G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8x10G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8x10G / 3 details,null,trunk,native 1,-,-,fun,1-1000,null,8x10G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8x10G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8x10G / 5 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,5,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8x10G / 6 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,6,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8x10G / 7 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,7,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / 8x10G / 8 details,null,trunk,native 1,-,-,null,1-1000,null,8x10G,Auto negotiate,8,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-2-40G / 1 details,null,trunk,native 1,-,-,fun,1-1000,null,C3850-NM-2-40G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-2-40G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-2-40G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-4-10G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-4-10G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-4-10G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-4-10G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-4-10G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-4-10G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-4-10G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-4-10G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-8-10G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-8-10G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-8-10G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-8-10G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-8-10G / 5 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,5,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-8-10G / 6 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,6,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-8-10G / 7 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,7,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C3850-NM-8-10G / 8 details,null,trunk,native 1,-,-,null,1-1000,null,C3850-NM-8-10G,Auto negotiate,8,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-2Q / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-2Q,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-2Q / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-2Q,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-2Y / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-2Y,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-2Y / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-2Y,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-4G / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4G,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-4G / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4G,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-4G / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4G,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-4G / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4G,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-4M / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4M,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-4M / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4M,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-4M / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4M,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-4M / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-4M,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-8X / 1 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,1,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-8X / 2 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,2,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-8X / 3 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,3,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-8X / 4 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,4,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-8X / 5 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,5,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-8X / 6 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,6,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-8X / 7 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,7,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_C9300_24P_M / C9300-NM-8X / 8 details,null,trunk,native 1,-,-,null,1-1000,null,C9300-NM-8X,Auto negotiate,8,Enabled,-,Disabled,-,-,enabled,-,-,Alert only,null
+Bond_MS130X / 1 - uplink details,Uplink_to_C9300M,trunk,native 1,14.14 GB,16.58 GB, switch ,1-999,Bond_C9300_24_M,null,Auto negotiate (1 Gbps),1,Forwarding,enabled,Enabled,Uplink,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 2 details,NUC,trunk,native 1,193.7 MB,2.91 GB, server ,all,1c:69:7a:a4:f2:5d,null,Auto negotiate (1 Gbps),2,Forwarding,enabled,Enabled,Host,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 3 details,null,trunk,native 1,-,-,null,all,null,null,Auto negotiate,3,Enabled,enabled,Disabled,-,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 4 details,null,trunk,native 1,-,-,fun,all,null,null,Auto negotiate,4,Enabled,enabled,Disabled,-,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 5 details,null,trunk,native 1,39.2 MB,40.2 MB,null,all,null,null,Auto negotiate (100 Mbps),5,Forwarding,enabled,Enabled,Host,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 6 details,null,trunk,native 1,2.5 MB,6.8 MB,null,all,null,null,Auto negotiate (100 Mbps),6,Forwarding,enabled,Enabled,IoT,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 7 details,MV33,trunk,native 1,327.3 MB,253.1 MB, camera ,all,Probius_MV33,null,Auto negotiate (1 Gbps),7,Forwarding,enabled,Enabled,Cameras,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 8 details,MV23,trunk,native 1,281.3 MB,233.3 MB, camera ,all,Kang_MV23X,null,Auto negotiate (1 Gbps),8,Forwarding,enabled,Enabled,Cameras,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 9 details,null,trunk,native 1,-,-,null,all,null,null,Auto negotiate,9,Enabled,enabled,Disabled,-,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 10 details,null,trunk,native 1,-,-,null,all,null,null,Auto negotiate,10,Enabled,enabled,Disabled,-,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 11 details,null,trunk,native 1,-,-,null,1-999,null,null,Auto negotiate,11,Enabled,enabled,Disabled,Switch,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 12 details,AP,trunk,native 1,15.75 GB,10.78 GB, ap ,all,Bond_CW9166I,null,Auto negotiate (2.5 Gbps),12,Forwarding,enabled,Enabled,AccessPoint,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 13 details,null,trunk,native 1,-,-,null,all,null,null,Auto negotiate,13,Enabled,-,Disabled,-,-,enabled,Open,-,Alert only,null
+Bond_MS130X / 14 details,null,trunk,native 1,-,-,null,all,null,null,Auto negotiate,14,Enabled,-,Disabled,-,-,enabled,Open,-,Alert only,null
